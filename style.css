@@ -1,0 +1,80 @@
+* {
+    font-family: "EB Garamond";
+}
+
+h1 {
+    font-family: "IBM Plex Serif";
+}
+
+h2 {
+    margin-left: 16px;
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    margin-bottom 18px;
+}
+
+ul li {
+    display: inline-block;
+    margin: 50px 50px;
+    padding: 20px 20px;
+}
+
+section {
+    border: black;
+    border-style: solid;
+    margin: 10px 10px;
+}
+.color1 {
+    background-color: #614C37;
+}
+.color2 {
+    background-color: #E6d7c8;
+
+}
+.color3 {
+    background-color: #E0AF7F;
+}
+.color4 {
+    background-color: #615B54;
+}
+.color5 {
+    background-color: #AD8863;
+    margin-bottom: 10px;
+}
+
+span {
+    text-decoration: underline;
+    font-style: bold;
+    margin-left: 20px;
+}
+
+p {
+    margin-left: 24px;
+}
+
+.normaltext {
+    font-style: normal;
+}
+
+.boldtext {
+    font-weight: bold;
+}
+
+.italictext {
+    font-style: italic;
+}
+
+div {
+    display: inline-block;
+}
+
+div.IBMplex > * {
+    font-family: "IBM Plex Serif";
+}
+
+div.opensans > * {
+    font-family: "Open Sans";
+}
